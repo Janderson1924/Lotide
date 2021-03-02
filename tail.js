@@ -10,10 +10,10 @@ assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
 
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
+const words = ["Yo Yo", "Lighthouse", "Labs", "Dawg"];
 
 const tail = function(array) {
-  return array.slice(1, 3);
+  return array.slice(1, 4);
 };
 
 console.log(tail(words));
