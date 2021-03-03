@@ -1,3 +1,15 @@
+const eqArrays = function (array1, array2) {
+  for (let i = 0; i < array1.length; i++) {
+    for (let j = 0; j < array2.length; j++) {
+      if (array1[i] === array2[j]) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+};
+
 const assertArraysEqual = function (firstArray, secondArray) {
   for (let i = 0; i < firstArray.length; i++) {
     for (let j = 0; j < secondArray.length; j++) {
@@ -10,4 +22,6 @@ const assertArraysEqual = function (firstArray, secondArray) {
   }
 };
 
-console.log(assertArraysEqual([1, 2], [1, 2]));
+
+
+const without = function (source, itemsToRemove) {};
