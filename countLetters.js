@@ -18,3 +18,5 @@ const countLetters = function(sentence) {
   return counted;
 };
 console.log(countLetters('LHL'));
+
+module.exports = countLetters;

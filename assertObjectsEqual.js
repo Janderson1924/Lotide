@@ -35,3 +35,5 @@ const cd = { a: "1", b: "2" };
 const ef = { a: "1", b: "2" };
   
 assertObjectsEqual(cd, ef);
+
+module.exports = assertObjectsEqual;
