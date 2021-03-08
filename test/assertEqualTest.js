@@ -1,9 +1,6 @@
 const assert = require('chai').assert;
 const assertEqual = require('../assertEqual');
 
-// assertEqual tests
-// assertEqual("Lighthouse Labs", "Bootcamp");
-// assertEqual(1, 1);
 
 describe("should tell us if two items match or not", () => {
   it("returns yes if matching", () => {

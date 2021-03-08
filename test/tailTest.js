@@ -1,9 +1,6 @@
 const assert = require('chai').assert;
 const tail = require('../tail.js')
 
-// tests
-// const words = ["Yo Yo", "Lighthouse", "Labs", "Dawg"];
-// console.log(tail(words));
 
 describe("should show 'tail' of given array (all but the first item)", () => {
   it("returns [2, 3] for [1, 2, 3]", () => {
