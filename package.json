@@ -2,7 +2,7 @@
   "name": "@janderson1924/lotide",
   "version": "1.0.0",
   "description": "A self-built clone of Lodash! Purely for learning purposes :)",
-  "main": "index.js",
+  "main": "./index.js",
   "directories": {
     "test": "test"
   },
