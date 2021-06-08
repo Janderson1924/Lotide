@@ -13,9 +13,13 @@ const eqArrays = function (array1, array2) {
 
 const assertArraysEqual = function (firstArray, secondArray) {
   if (eqArrays(firstArray, secondArray) === true) {
-    return console.log(`✅✅✅Assertion Passed: ${firstArray} === ${secondArray}`);
+    return console.log(
+      `✅✅✅Assertion Passed: ${firstArray} === ${secondArray}`
+    );
   } else {
-    return console.log(`🛑🛑🛑Assertion Failed: ${firstArray} !== ${secondArray}`);
+    return console.log(
+      `🛑🛑🛑Assertion Failed: ${firstArray} !== ${secondArray}`
+    );
   }
 };
 
@@ -25,10 +29,9 @@ const without = function (source, itemsToRemove) {
     if (!itemsToRemove.includes(source[i])) {
       results.push(source[i]);
     }
-  } 
+  }
   return results;
 };
-
 
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
